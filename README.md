@@ -73,7 +73,6 @@ double calcularFrete();
 
 **PedidoAlimento:**
 - Sem desconto;
-- Frete = R$ 5.
 
 Todos os pedidos são processáveis, mas somente o `PedidoAlimento` não é entregável.
 
