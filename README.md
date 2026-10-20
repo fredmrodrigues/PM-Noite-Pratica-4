@@ -85,3 +85,15 @@ Todos os pedidos são processáveis, mas somente o `PedidoAlimento` não é entr
 - Exibir lista de pedidos: não deve exibir os cancelados;
 - Exibir pedidos entregáveis;
 - Encerrar.
+
+## Execução
+
+O código-fonte está em `src/`. Com o JDK instalado, execute:
+
+```bash
+javac -encoding UTF-8 -d out src/*.java
+java -cp out Main
+```
+
+`PedidoAlimento` não implementa `Entregavel`, portanto não possui frete e não
+é listado entre os pedidos entregáveis.
